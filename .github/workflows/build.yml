@@ -761,6 +761,7 @@ jobs:
           - loader_debug
           - loader_tracing
           - loader_replay
+          - loader_replay_buffer
           - loader_tracing_replay
 
     steps:
@@ -1050,6 +1051,7 @@ jobs:
             'node-express-esm-preload',
             'node-express-esm-without-loader',
             'node-express-cjs-preload',
+            'node-otel-sdk-node',
             'nextjs-app-dir',
             'nextjs-14',
             'nextjs-15',
